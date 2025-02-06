@@ -1,4 +1,4 @@
-# aws-serveress-patterns
+# aws-serverless-patterns
 
 ## **Workshop Overview: Serverless Patterns**
 

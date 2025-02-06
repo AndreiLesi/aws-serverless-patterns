@@ -1,0 +1,8 @@
+{
+    "path":"/orders",
+    "httpMethod":"POST",
+    "body": "{\"restaurantId\":1,\"orderId\":\"1234-5678\",\"orderItems\":[{\"id\":1,\"name\":\"Spaghetti\",\"price\":9.99,\"quantity\":1},{\"id\":2,\"name\":\"Pizza - SMALL\",\"price\":4.99,\"quantity\":2}],\"totalAmount\":19.97,\"status\":\"PLACED\"}",
+    "isBase64Encoded":false
+ }
+
+{restaurantId:1,orderId:"1234-5678",orderItems:[{id:1,name:Spaghetti,price:9.99,quantity:1},{id:2,name:Pizza - SMALL,price:4.99,quantity:2}],totalAmount:19.97,status:PLACED}

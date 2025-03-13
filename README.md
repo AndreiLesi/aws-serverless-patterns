@@ -17,16 +17,17 @@ Each Service is described on a high level below. For a more in-depth description
 #### Service 1: Users
 The users service is a microservice to add and update user accounts as well as restrict access to your application to registered users only. This service is implemnted in the users-synchronous folder.
 
-![Alt Text](https://static.us-east-1.prod.workshops.aws/public/189efa5c-e421-4c25-a477-12e546f45f03/static/module2/module2-arch.svg)
+![Alt Text](./architecture/module1.svg)
 
 ### Service 2: Orders
 The orders service is  microservice that manages orders placed by the users. It uses a synchronous architecture and also implements idempotency for error handling. This service is implemented in the orders-synchronous-idempotent folder.
-![Alt Text](https://static.us-east-1.prod.workshops.aws/public/189efa5c-e421-4c25-a477-12e546f45f03/static/module3/module3-arch.svg)
+
+![Alt Text](/architecture/module2.svg)
 
 ### Service 3: User Profile Service
 This service is used to allow the user to manage his account. He can edit his personal address and add restaurants to his favorites. It is implemented asynchronously and can be found in the userprofile-asynchronous folder.
-![Alt Text](https://static.us-east-1.prod.workshops.aws/public/189efa5c-e421-4c25-a477-12e546f45f03/static/module4/module4-arch.svg)
+![Alt Text](/architecture/module3.svg)
 
 ### Service 4: Order Status Service
 The order status service allows the customers to track order status. Delivery employees and restaurant staff can update the status of the order. This service is implemented using a event driven architecture and can be found in the oderstatus folder.
-![Alt Text](https://static.us-east-1.prod.workshops.aws/public/189efa5c-e421-4c25-a477-12e546f45f03/static/module5/updateorderstatus.svg)
+![Alt Text](/architecture/module4.svg)
